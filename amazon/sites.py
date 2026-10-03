@@ -73,7 +73,7 @@ SITES = {
            "fingerprint": "safari17_0", "postal_code": "2000", "exit_country": None},
 }
 
-DEFAULT_COUNTRY = "US"
+DEFAULT_COUNTRY = "EG"
 COUNTRIES = tuple(SITES)
 
 # amazon.co.uk -> GB etc. (every host a link can carry, including the bare
