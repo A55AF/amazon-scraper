@@ -10,6 +10,7 @@ RUN mkdir app
 WORKDIR /app
 COPY . /app
 
+ENV DEFAULT_COUNTRY=EG
 EXPOSE 8000
 
 # No browser needed — the scraper talks to Amazon over plain HTTP.
